@@ -1,37 +1,54 @@
+function fizzBuzzGenerator(elements){
+    for(i=1;i<=elements;i++){
 
-  function fizzBuzzGenerator(element){
-    for (i-1;i<=element;i++){
-
-        if (i%3==0 && i%5==0){
-        console.log("fizzBuss")
+        if(i%3==0 && i%5==0){
+            console.log("FizzBuzz")
         }
-        else if (i%3==0){
-            console.log("fizz")
+        else if(i%3==0){
+            console.log("Fizz")
         }
-        else if (i%5==0){
+        else if(i%5==0){
             console.log("Buzz")
         }
-        else {
+        else{
             console.log(i)
+        }
+
+
     }
+
+   
 }
-function fizzBuzzGeneratorArray(element){
-    if (i%3==0 && i%5==0){
-        fizzBuzzList.push("fizzBuss")
+
+function fizzBuzzGeneratorArray(elements){
+    fizzBuzzList=[]
+    for(i=1;i<=elements;i++){
+
+        if(i%3==0 && i%5==0){
+            fizzBuzzList.push("FizzBuzz")
         }
-        else if (i%3==0){
-            fizzBuzzList.push("fizz")
+        else if(i%3==0){
+            fizzBuzzList.push("Fizz")
         }
-        else if (i%5==0){
+        else if(i%5==0){
             fizzBuzzList.push("Buzz")
         }
-        else {
+        else{
             fizzBuzzList.push(i)
-}
-}
-function fizzBuzzGeneratorArray(elements{
+        }
+       
+    }
 
+    return fizzBuzzList;
+
+   
 }
+
+//list=fizzBuzzGeneratorArray(15)
+//console.log(list)
+// list.forEach(element => {
+//     console.log(element)
+// });
 
 module.exports={
     fizzBuzzGenerator,
