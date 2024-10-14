@@ -187,5 +187,5 @@ To use the functions in this project, you can include them in your own JavaScrip
 - **Usage:** Brief instructions on how to use the functions in your own code.
 - **License:** Information about the project's licensing, allowing others to use it freely. 
 
-You can customize this `README.md` further based on your specific needs or additional functionality in your project.
-
+License
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code in any way you see fit.
